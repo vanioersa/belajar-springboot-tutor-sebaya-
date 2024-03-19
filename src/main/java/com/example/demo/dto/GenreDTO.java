@@ -1,18 +1,18 @@
-package com.example.demo.model;
+package com.example.demo.dto;
 
-import jakarta.persistence.*;
-import java.util.List;
-
-@Entity
-@Table(name = "genres")
-public class GenreModel {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class GenreDTO {
     private Long id;
     private String name;
 
+    public GenreDTO() {
+    }
 
+    public GenreDTO(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
+    // Getters and setters
     public Long getId() {
         return id;
     }
@@ -28,6 +28,4 @@ public class GenreModel {
     public void setName(String name) {
         this.name = name;
     }
-
-
 }
