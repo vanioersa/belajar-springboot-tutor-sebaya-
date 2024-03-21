@@ -4,7 +4,6 @@ public class FilmRequestDTO {
     private String title;
     private Long genreId;
 
-
     public String getTitle() {
         return title;
     }

@@ -11,8 +11,6 @@ public class GenreModel {
     private Long id;
     private String name;
 
-
-
     public Long getId() {
         return id;
     }
@@ -28,6 +26,5 @@ public class GenreModel {
     public void setName(String name) {
         this.name = name;
     }
-
 
 }

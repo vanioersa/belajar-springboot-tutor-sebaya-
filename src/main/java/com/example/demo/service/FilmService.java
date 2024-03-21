@@ -1,9 +1,10 @@
 package com.example.demo.service;
 
+import com.example.demo.model.FilmModel;
+import com.example.demo.model.GenreModel;
 import com.example.demo.dto.FilmDTO;
 import com.example.demo.dto.FilmRequestDTO;
 import com.example.demo.dto.GenreDTO;
-import com.example.demo.model.*;
 import com.example.demo.repository.FilmRepository;
 import com.example.demo.repository.GenreRepository;
 import org.springframework.beans.factory.annotation.Autowired;
